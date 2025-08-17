@@ -1,0 +1,3 @@
+/home/man567/code/library-system/build/CMakeFiles/library-system.dir
+/home/man567/code/library-system/build/CMakeFiles/edit_cache.dir
+/home/man567/code/library-system/build/CMakeFiles/rebuild_cache.dir
