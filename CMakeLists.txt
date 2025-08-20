@@ -7,7 +7,7 @@ include_directories(include)
 
 file(GLOB SRC_FILES src/*.cpp)
 
-
+set(CMAKE_BUILD_TYPE Debug)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 

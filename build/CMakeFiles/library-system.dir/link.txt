@@ -1,1 +1,1 @@
-/usr/bin/c++ "CMakeFiles/library-system.dir/src/book.cpp.o" "CMakeFiles/library-system.dir/src/borrow.cpp.o" "CMakeFiles/library-system.dir/src/card.cpp.o" "CMakeFiles/library-system.dir/src/main.cpp.o" "CMakeFiles/library-system.dir/src/management.cpp.o" -o bin/library-system 
+/usr/bin/c++ -g "CMakeFiles/library-system.dir/src/book.cpp.o" "CMakeFiles/library-system.dir/src/borrow.cpp.o" "CMakeFiles/library-system.dir/src/card.cpp.o" "CMakeFiles/library-system.dir/src/main.cpp.o" "CMakeFiles/library-system.dir/src/management.cpp.o" -o bin/library-system 

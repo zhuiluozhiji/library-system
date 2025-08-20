@@ -2,14 +2,14 @@
 #include <iostream>
 
 Book::Book(const std::string& title, const std::string& author, int stock)
-    : bid(-1), title(title), author(author), stock(stock) {}
+    : bookId(-1), title(title), author(author), stock(stock) {}
 
-int Book::getBid() const {
-    return bid;
+int Book::getBookId() const {
+    return bookId;
 }
 
-void Book::setBid(int bid) {
-    this->bid = bid;
+void Book::setBookId(int bookId) {
+    this->bookId = bookId;
 }
 
 std::string Book::getTitle() const {
@@ -28,6 +28,6 @@ void Book::incStock(int inc) {
     stock += inc;
 }
 
-void Book::printBook() const {
-    std::cout << "Book ID: " << bid << ", Title: " << title << ", Author: " << author << ", Stock: " << stock << std::endl;
+void Book::showBook() const {
+    std::cout << "Book ID: " << bookId << ", Title: " << title << ", Author: " << author << ", Stock: " << stock << std::endl;
 }

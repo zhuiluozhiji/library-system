@@ -20,12 +20,37 @@ int main(){
     m.storeBook(c);
     m.storeBook(d);
 
-    m.printAllBooks();
+    m.showAllBooks();
 
     m.incBookStock(0, 3);
     m.removeBook(1);
     m.storeBooks(books);
-    m.printAllBooks();
+    m.modifyBookInfo(0, Book("t1", "a11", 8));
+
+    m.showAllBooks();
+
+    Card c1("Alice");
+    Card c2("Bob");
+    Card c3("Charlie");
+    Card c4("David");
+
+    m.registerCard(c1);
+    m.registerCard(c2);
+    m.registerCard(c3);
+    m.registerCard(c4);
+
+    m.removeCard(0);
+    m.showCards();
+    m.borrowBook(0, 1);
+    m.borrowBook(0, 2);
+    m.borrowBook(0, 3);
+
+    m.showAllBooks();
+    m.showAllBorrows();
+    
+    
+    m.returnBook(0, 1);
+
 
     return 0;
 }
